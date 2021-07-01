@@ -1,0 +1,75 @@
+.login__image {
+  object-fit: contain;
+  height: 70px;
+  width: 150px;
+}
+
+.login {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* .login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.login__box {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  /* align-items: flex-start; */
+  width: 400px;
+  border: 1px solid #111111;
+  border-radius: 3px;
+}
+
+.login__box > form > input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.login__box > h2 {
+  text-align: left;
+  margin: 10px;
+}
+
+.login__box > form > button {
+  background-color: #f0c14b;
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid;
+  /* margin-top: 10px; */
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 3px;
+  color: #111;
+}
+
+.login__box > button {
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid;
+  /* margin-top: 10px; */
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 3px;
+  color: #111;
+}
+
+.login__box > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__box > form > span {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+}

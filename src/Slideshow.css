@@ -1,0 +1,12 @@
+.slide__image {
+  width: 100%;
+  z-index: -1;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.slide-container {
+  display: inline-block;
+  z-index: -1;
+  margin-bottom: -150px;
+  /* max-width: 1500px; */
+}
